@@ -1,3 +1,5 @@
+#################### Component STYLE #######################
+
 /* app component container style */
 .container {
   text-align: center;
@@ -20,4 +22,18 @@ button {
   width: 300px;
   border-radius: 15px;
   background-color: #ff00d4;
+}
+
+
+#################### Global STYLE #######################
+
+/* main style for the page and setting background */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-size: cover;
+  width: auto;
+  background-image: url("./assets/image.jpg");
+  background-position: top;
 }
